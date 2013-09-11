@@ -59,7 +59,7 @@ public class ModelProcessor {
 		if( binding == null ) {
 			binding = MCommandsFactory.INSTANCE.createKeyBinding();
 			binding.setElementId("e4.tooling.livemodel.binding");
-			binding.setKeySequence("ALT+SHIFT+F9");
+			binding.setKeySequence("M2+M3+F9");
 			binding.setCommand(command);
 			if( application.getBindingTables().size() > 0 ) {
 				application.getBindingTables().get(0).getBindings().add(binding);	
